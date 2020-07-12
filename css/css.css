@@ -14,20 +14,10 @@ body {
 }
 
 #page-top{
-    position: relative;
+    position: static;
     overflow-x: hidden;
-    width: 100%;
+    width: auto;
     height: 100%;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-}
-
-#demo{
-    background-image:url(./assets/img/sl.jfif);
-    display: flex;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #fullName {
@@ -41,7 +31,7 @@ body {
 }
 
 #image{
-    border-radius:50%;
+    border-radius: 55%;
 }
 
 h2,h4 {
